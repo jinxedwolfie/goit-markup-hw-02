@@ -1,0 +1,111 @@
+html,
+body {
+    background-color: #FCFCFC;
+    width: auto;
+    height: auto;
+    color:#434455;
+}
+
+.menu {
+    background-color: #ffffff;
+    height: 72px;
+    display: flex;
+    
+}
+
+.menu li {
+    display: inline-block;
+}
+
+h1 {
+    font-size: 56px;
+    line-height: 60px;
+    color: #ffffff;
+    margin: auto;
+    padding-top: 188px;
+    padding-bottom: 48px;
+    overflow-wrap: break-word;
+    width: 496px;
+    height: 120px;
+}
+
+.logo-web {
+    color: #4D5AE5;
+}
+
+.main-page-text-container {
+    background-color: #2E2F42;
+    text-align: center;
+    height: 600px;
+}
+
+.button {
+    background-color: #4D5AE5;
+    color: #ffffff;
+    padding: 16px 32px;
+    border-radius: 4px;
+    font-size: 16px;
+    border: none;
+    cursor: pointer;
+}
+
+.button:hover {
+    background-color: #404bbf;
+}
+
+.list-of-benefits-container {
+    height: 344px;
+}
+.list-of-benefits-container h2 {
+    display: none;
+}
+
+.list-of-benefits {
+    width: auto;
+    height: 104px;
+    padding-top: 120px;
+    padding-bottom: 120px;
+    text-align: center;
+}
+
+.list-of-benefits li {
+    display: inline-block;
+    width: 264px;
+    height: 104px;
+    text-align: left;
+    overflow-wrap: break-word;
+    margin-left: 24px;
+}
+
+.our-team {
+    background-color: #F4F4FD;
+    text-align: center;
+    width: auto;
+    height: 732px;
+    
+}
+
+.our-team h2 {
+    padding-top: 120px;
+    padding-bottom: 72px;
+    margin: auto;
+    color: #2E2F42;
+    font-size: 36px;
+}
+
+.our-team-a {
+    margin-bottom: 24px;
+}
+
+.our-team-a li {
+    width: 264px;
+    height: 380px;
+    text-align: center;
+    display: inline-block;
+    margin-left: 24px;
+    background-color: #ffffff;
+}
+
+.footer {
+    background-color: #2E2F42;
+}
