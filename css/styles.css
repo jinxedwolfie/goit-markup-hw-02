@@ -4,8 +4,11 @@ body {
     width: auto;
     height: auto;
     color:#434455;
+    font-family: "Roboto", sans-serif;
+    font-family: "Roboto", "Helvetica Neue", Arial, sans-serif;
+    font-size: 16px;
+    line-height: 1.5;
 }
-
 .menu {
     background-color: #ffffff;
     height: 72px;
@@ -15,18 +18,6 @@ body {
 
 .menu li {
     display: inline-block;
-}
-
-h1 {
-    font-size: 56px;
-    line-height: 60px;
-    color: #ffffff;
-    margin: auto;
-    padding-top: 188px;
-    padding-bottom: 48px;
-    overflow-wrap: break-word;
-    width: 496px;
-    height: 120px;
 }
 
 .logo-web {
@@ -39,7 +30,31 @@ h1 {
     height: 600px;
 }
 
+h1 {
+    color: #ffffff;
+    margin: auto;
+    padding-top: 186px;
+    padding-bottom: 48px;
+    font-size: 56px;
+    line-height: 1.0714;
+    overflow-wrap: break-word;
+    width: 496px;
+    font-weight: bold;
+
+}
+
+h2 {
+    font-size: 36px;
+    font-weight: bold;
+}
+
+h3 {
+    font-size: 20px;
+    font-weight: medium;
+}
+
 .button {
+
     background-color: #4D5AE5;
     color: #ffffff;
     padding: 16px 32px;
@@ -85,7 +100,7 @@ h1 {
     
 }
 
-.our-team h2 {
+h2 {
     padding-top: 120px;
     padding-bottom: 72px;
     margin: auto;
@@ -93,11 +108,11 @@ h1 {
     font-size: 36px;
 }
 
-.our-team-a {
+.our-team-list {
     margin-bottom: 24px;
 }
 
-.our-team-a li {
+.our-team-list li {
     width: 264px;
     height: 380px;
     text-align: center;
@@ -106,6 +121,22 @@ h1 {
     background-color: #ffffff;
 }
 
-.footer {
+.portaolio-conteiner {
+    text-align: center;
+}
+
+.portaolio-conteiner h2 {
+    padding-bottom: 72px;
+    padding-top: 120px;
+}
+
+.portaolio-conteiner li {
+    display: inline-block;
+    background-color: #ffffff;
+    text-align: left;
+    margin-left: 24px;
+    margin-bottom: 48px;
+}
+.site-info {
     background-color: #2E2F42;
 }
