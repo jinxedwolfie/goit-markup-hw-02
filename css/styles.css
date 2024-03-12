@@ -8,12 +8,21 @@ body {
 }
 .menu {
     background-color: #ffffff;
-
+    font-weight: 500;
     
 }
-
-.logo-web {
+.logo {
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 1.17;
+    letter-spacing: 0.03em;
     color: #4D5AE5;
+    font-family: "Raleway", sans-serif;
+    text-transform: uppercase;
+
+}
+.logo-web {
+    color:#2e2f42;
 }
 
 .main-page-text-container {
