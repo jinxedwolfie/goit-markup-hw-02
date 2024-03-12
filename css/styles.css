@@ -8,9 +8,37 @@ body {
 }
 .menu {
     background-color: #ffffff;
-    font-weight: 500;
     
 }
+
+.menu_nav_list {
+    font-weight: 500;
+    letter-spacing: 0.02em;
+    color: #2e2f42;
+}
+
+.menu_nav_list:hover {
+    color: #404bbf;
+}
+
+.menu_nav_list:focus {
+    color:#404bbf;
+}
+
+.contact_information {
+    letter-spacing: 0.02em;
+    color: #434455;
+    font-style: normal;
+}
+
+.contact_information:focus {
+    color: #404bbf;
+}
+
+.contact_information:hover {
+    color: #404bbf;
+}
+
 .logo {
     font-weight: 700;
     font-size: 18px;
@@ -30,42 +58,32 @@ body {
     text-align: center;
 }
 
-h1 {
+.main-page-title {
     color: #ffffff;
     font-size: 56px;
-    line-height: 1.0714;
+    line-height: 1.07;
     font-weight: bold;
-
+    letter-spacing: 0.02em
 }
 
-h2 {
-    font-size: 36px;
-    font-weight: bold;
-}
-
-h3 {
-    font-size: 20px;
-    font-weight: medium;
-}
 
 .button {
-
+    font-family: "Roboto", sans-serif;
     background-color: #4D5AE5;
     color: #ffffff;
     font-size: 16px;
     cursor: pointer;
+    font-weight: 500;
+    line-height: 1.5;
+    letter-spacing: 0.04em;
 }
 
 .button:hover {
     background-color: #404bbf;
 }
 
-.list-of-benefits {
-    text-align: center;
-}
-
-.list-of-benefits li {
-    text-align: left;
+.button:focus {
+    background-color: #404bbf;
 }
 
 .our-team {
@@ -73,10 +91,31 @@ h3 {
     text-align: center;
     
 }
+.our-team-title {
+    font-size: 20px;
+    line-height: 1.2;
+    color: #2E2F42;
 
-h2 {
+}
+.portfolio-conteiner-title {
     color: #2E2F42;
     font-size: 36px;
+    font-weight: 500;
+    line-height: 1.2;
+    letter-spacing: 0.02em;
+    line-height: 1.11;
+    text-transform: capitalize;
+}
+
+.portfolio-conteiner-title-three {
+    font-weight: 500;
+    line-height: 1.2;
+    letter-spacing: 0.02em;
+    color: #2E2F42;
+}
+
+.portfolio-conteiner-paragraf {
+    letter-spacing: 0.02em
 }
 
 .our-team-list li {
@@ -95,4 +134,20 @@ h2 {
 }
 .site-info {
     background-color: #2E2F42;
+}
+
+.title-three {
+    font-weight: 500;
+    line-height: 1.2;
+    letter-spacing: 0.02em;
+    color: #2e2f42;
+} 
+
+.list-of-benefits-paragraf {
+    letter-spacing: 0.02em;
+}
+
+.footer-paragraf {
+    color: #F4F4FD;
+    letter-spacing: 0.02em;
 }
